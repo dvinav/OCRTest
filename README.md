@@ -1,11 +1,11 @@
 # 🧪 OCR Experiments
 
-Just a sandbox repo for messing around with OCR stuff — currently using [`tesseract.js`](https://github.com/naptha/tesseract.js) to run in-browser OCR with Persian (Farsi) language support.
+Just a sandbox repo for messing around with OCR stuff — currently using [`tesseract.js`](https://github.com/naptha/tesseract.js) to run in-browser OCR with Persian language support.
 
 ## 🚀 Stack
 
-- `React` frontend
-- [`tesseract.js`](https://github.com/naptha/tesseract.js) (WebAssembly OCR engine)
+- Next.js frontend
+- [tesseract.js](https://github.com/naptha/tesseract.js) (WebAssembly OCR engine)
 - Persian (`fas`) traineddata
 
 ## 🧠 Features
@@ -22,8 +22,6 @@ bun install
 npm install
 ```
 
-````
-
 ## 🧪 Run Dev
 
 ```bash
@@ -34,13 +32,11 @@ npm run dev
 
 ## 📁 TODO
 
-- train better Farsi model
-- switch to native C++ + wasm OCR engine
-- handwriting support?
-- maybe use OpenCV for preprocessing
+- Train better Persian model
+- Switch to native C++ + wasm OCR engine
+- Handwriting support?
+- Maybe use OpenCV for preprocessing
 
 ## 🐸 License
 
-MIT — but don’t blame me if it breaks
-
-````
+WTFPL - Do whatever the f*ck you want
